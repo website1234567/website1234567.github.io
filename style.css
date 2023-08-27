@@ -1,43 +1,47 @@
-#fancy{
+* {
+box-sizing: border-box;
+}
 
-    color:rgb(255, 174, 215);
+header {
+    background-color:rgb(163, 174, 204) ;
+    color:black;
+    padding: 30px;
     text-align:center;
-    font-weight:800;
-    font-size:50px;
-    font-family:'Georgia';
-    font-style:italic;
-    font-stretch:expanded;
-    text-decoration:underline;
-    line-height:100px;
-    
-    }
-    #swift{
-    color:rgb(216, 147, 245);
-    font-family:Tahoma;
-    font-style:italic;
-    font-size:35px;
-    
-    
-    }
-    
-    
-    .border{
-      width:200;
-      height:200;
-    }
-    
-    .square {
-        display: inline-block;
-        border: 2px solid rgb(228, 71, 102);
-        padding:10px;
-    }
-    
-    .square h1{
-    color: rgb(100, 100, 255);
-    
-    }
-    
-    #lax{
-    color:rgb(161, 248, 250);
-    
-    }
+    font-size: 35px;
+    font-family: Georgia;
+}
+
+nav{
+float: left;
+width: 30%;
+height: 600px;
+background:rgb(93, 114, 161);
+padding: 20px;
+}
+
+nav ul{
+    list-style-type:none;
+    padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 70%;
+background:rgb(192, 196, 204);
+height: 600px;
+
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: rgb(192, 153, 229);
+    padding: 10px;
+    text-align: center;
+    color:rgb(100, 63, 168);
+}
