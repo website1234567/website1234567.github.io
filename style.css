@@ -1,14 +1,19 @@
+@font-face {
+    font-family:'custom';
+    src: url(Darling.ttf);
+}
+
 * {
 box-sizing: border-box;
 }
 
 header {
-    background-image:linear-gradient(rgb(163, 174, 204),rgb(167, 117, 214), rgb(148, 81, 161));
+    background-image:linear-gradient(rgb(230, 212, 238),rgb(194, 166, 221), rgb(167, 136, 173));
     color:black;
     padding: 30px;
     text-align:center;
     font-size: 35px;
-    font-family: Georgia;
+    font-family:'custom';
 }
 
 nav{
