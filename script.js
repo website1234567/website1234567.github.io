@@ -1,7 +1,10 @@
 const link1 = document.getElementById("topic1");
 const link2 = document.getElementById("topic2");
 const link3 = document.getElementById("topic3");
+const link4 = document.getElementById("topic4");
 const info = document. getElementById("info");
+
+AOS.init();
 
 link1.addEventListener("click", function() {
     info.innerHTML =`
@@ -38,5 +41,11 @@ link3.addEventListener("click", function() {
     <h1>Where to listen</h1>
     <p>You can listen to Taylor Swift's music on all streaming platforms including spotify.</p>
     <p>Use the link down below to stream her on Spotify</p>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/06HL4z0CvFAxyc27GXpf02?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
  `
+});
+
+link4.addEventListener("click", function() {
+    info.innerHTML =`
+    <img data-aos="zoom-in" data-aos-duration="3000" src="https://i0.wp.com/adashofdata.com/wp-content/uploads/2023/02/ts_albums-1.png" height="500" width="700" alt="Album Covers"></img>    `
 });
