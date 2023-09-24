@@ -3,6 +3,24 @@
     src: url(Darling.ttf);
 }
 
+.navbar {
+width:100%
+background-color: pink;
+padding: 20px;
+font-family: 'custom';
+font-size: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    background-color:rgb(255, 139, 220) ;
+}
+
 * {
 box-sizing: border-box;
 }
