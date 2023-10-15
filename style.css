@@ -3,12 +3,25 @@
     src: url(Darling.ttf);
 }
 
+@font-face {
+    font-family:'caviar';
+    src: url(CaviarDreams.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    }
+
 .navbar {
-width:100%
+width:100%;
 background-color: pink;
 padding: 20px;
 font-family: 'custom';
 font-size: 30px;
+}
+
+.contents {
+    font-family:"caviar";
 }
 
 nav ul{
@@ -17,54 +30,17 @@ nav ul{
 }
 
 .container-fluid {
-    width: 100%;
-    background-color:rgb(255, 139, 220) ;
-}
-
-* {
-box-sizing: border-box;
-}
-
-header {
-    background-image:linear-gradient(rgb(230, 212, 238),rgb(194, 166, 221), rgb(167, 136, 173));
-    color:black;
-    padding: 30px;
-    text-align:center;
-    font-size: 35px;
-    font-family:'custom';
-}
-
-nav{
-float: left;
-width: 30%;
-height: 600px;
-background:rgb(93, 114, 161);
-padding: 20px;
-}
-
-nav ul{
-    list-style-type:none;
-    padding: 0;
+    width: 100;
+    background-color:rgb(255, 116, 169) ;
 }
 
 article {
-float: left;
-padding: 20px;
-width: 70%;
-background:rgb(192, 196, 204);
-height: 600px;
-
-}
-
-section:after {
-    content: "";
-    display: table;
-    clear: both;
+    height: 100vh;
 }
 
 footer {
-    background-image:linear-gradient(rgb(215, 202, 228),rgb(218, 179, 218));
+    background-image:linear-gradient(rgb(255, 116, 169), rgb(255, 200, 218));
     padding: 10px;
     text-align: center;
-    color:rgb(100, 63, 168);
+    color:rgb(255, 0, 119);
 }
