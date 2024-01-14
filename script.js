@@ -60,6 +60,7 @@ link2.addEventListener("click", function() {
 <p1>These re-records means Swift owns all the rights to the albums which she previously didn't own.</p1>
 <p1> She has re-recorded three albums so far with her fourth re-record coming out in October.</p1>
 <p1> She didn't own the rights to her first six albums but with only two more to re-record she will own all her music.</p1>
+<p1>Her fourth re-record just came out.</p1>
 </div>
 `;
 });
