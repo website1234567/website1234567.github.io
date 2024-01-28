@@ -6,11 +6,46 @@
 </head>
 
 <body>
-<h2> Simple Addition </h2>
-<input type="text" id="number1" placeholder="Enter first number">
-<input type="text" id="number2" placeholder="Enter second number">
-<button onclick="addNumbers()">Add</button>
-<p id="result"></p>
+<h2> Simple Calculator </h2>
+<div class="calculator" style="text-align: center; nargin-top: 100px;">
+    <div>
+        <input type="text" id="display" style="text-align: right; width: 130px; margin-bottom: 5px;" disabled>
+    </div>
+
+    <div>
+        <button onclick="input ('1')" style="width: 30px;">1</button>
+        <button onclick="input ('2')" style="width: 30px;">2</button>
+        <button onclick="input ('3')" style="width: 30px;">3</button>
+    </div>
+
+    <div>
+        <button onclick="input ('4')" style="width: 30px;">4</button>
+        <button onclick="input ('5')" style="width: 30px;">5</button>
+        <button onclick="input ('6')" style="width: 30px;">6</button>
+    </div>
+
+    <div>
+        <button onclick="input ('7')" style="width: 30px;">7</button>
+        <button onclick="input ('8')" style="width: 30px;">8</button>
+        <button onclick="input ('9')" style="width: 30px;">9</button>
+    </div>
+
+    <div>
+        <button onclick="setOperation ('+')" style="width: 30px;">+</button>
+        <button onclick="input ('0')" style="width: 30px;">0</button>
+        <button onclick="setOperation ('-')" style="width: 30px;">-</button>
+    </div>
+
+    <div>
+        <button onclick="setOperation ('*')" style="width: 30px;">*</button>
+        <button onclick="calculate ()" style="width: 30px;">=</button>
+        <button onclick="setOperation ('/')" style="width: 30px;">/</button>
+    </div>
+
+    <div>
+        <button onclick="clearDisplay ()" style="width: 95px;">Clear</button>
+    </div>
+</div>
 
 <script src="math.js"></script>
 
