@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: darkslategray;
+}
+
+#quiz-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(123, 134, 134);
+    padding: 20px;
+}
+
+h1 {
+    color:rgb(160, 190, 219);
+}
+
+button {
+    background-color: rgb(37, 37, 170);
+    color:rgb(219, 219, 219);
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin:5px
+}
